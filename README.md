@@ -38,4 +38,35 @@ This project implements a Convolutional Neural Network (CNN) to classify images 
 ```bash
 pip install tensorflow matplotlib seaborn scikit-learn
 
+---
+
+Tasks Completed
+✅ Task 1: Data Exploration and Preparation
+Loaded CIFAR-10 dataset
+
+Displayed sample images with labels
+
+Normalized image data to [0, 1]
+
+Displayed label distribution
+
+✅ Task 2: Build and Train CNN Model
+Built a CNN using Conv2D, MaxPooling, Dropout, Dense layers
+
+Trained model for 15 epochs with Adam optimizer
+
+Plotted accuracy/loss over epochs
+
+✅ Task 3: Evaluate the Model
+Evaluated test accuracy
+
+Generated confusion matrix and classification report
+
+Displayed correct and incorrect predictions
+
+✅ Task 4: Experimentation
+Re-trained model using SGD optimizer
+
+Compared performance between Adam and SGD
+
 
