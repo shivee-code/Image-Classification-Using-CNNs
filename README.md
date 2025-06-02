@@ -36,7 +36,7 @@ This project implements a Convolutional Neural Network (CNN) to classify images 
 ### Installation
 
 ```bash
-pip install tensorflow matplotlib seaborn scikit-learn
+pip install tensorflow matplotlib seaborn scikit-learn```
 
 ---
 
