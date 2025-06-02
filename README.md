@@ -59,5 +59,11 @@ This project implements a Convolutional Neural Network (CNN) to classify images 
 - Re-trained model using SGD optimizer
 - Compared performance between Adam and SGD
 
+---
 
+## Results
+| Optimizer | Test Accuracy |
+| --------- | ------------- |
+| Adam      | \~0.7062      |
+| SGD       | \~0.5292)     |
 
