@@ -4,5 +4,38 @@ This project implements a Convolutional Neural Network (CNN) to classify images 
 
 ---
 
+## Objective
+
+- Understand and apply CNNs for image classification.
+- Explore, preprocess, and visualize the CIFAR-10 dataset.
+- Build a basic CNN using TensorFlow/Keras.
+- Train and evaluate the model with visualization.
+- Experiment with optimizer changes for performance improvement.
+
+---
+
+## Dataset: CIFAR-10
+
+- 60,000 images (32x32 pixels, RGB)
+- 10 Classes: `airplane`, `automobile`, `bird`, `cat`, `deer`, `dog`, `frog`, `horse`, `ship`, `truck`
+- Training: 50,000 images | Testing: 10,000 images
+
+---
+
+## How to Run
+
+### Requirements
+
+- Python 3.8+
+- TensorFlow 2.x
+- NumPy
+- Matplotlib
+- Seaborn
+- scikit-learn
+
+### Installation
+
+```bash
+pip install tensorflow matplotlib seaborn scikit-learn
 
 
