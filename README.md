@@ -1,28 +1,28 @@
 # CIFAR-10 Image Classification using CNNs
 
-This project implements a Convolutional Neural Network (CNN) to classify images from the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html), a standard benchmark dataset in computer vision. The model is trained, evaluated, and improved using different techniques in this educational deep learning assignment.
+This project implements a **Convolutional Neural Network (CNN)** to classify images from the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html), a standard benchmark dataset in computer vision. The model is trained, evaluated, and improved using different techniques in this educational deep learning assignment.
 
 ---
 
-## Objective
+## 🎯 Objective
 
 - Understand and apply CNNs for image classification.
 - Explore, preprocess, and visualize the CIFAR-10 dataset.
 - Build a basic CNN using TensorFlow/Keras.
-- Train and evaluate the model with visualization.
-- Experiment with optimizer changes for performance improvement.
+- Train and evaluate the model with accuracy/loss visualization.
+- Experiment with different optimizers to improve performance.
 
 ---
 
-## Dataset: CIFAR-10
+## 🗂 Dataset: CIFAR-10
 
-- 60,000 images (32x32 pixels, RGB)
-- 10 Classes: `airplane`, `automobile`, `bird`, `cat`, `deer`, `dog`, `frog`, `horse`, `ship`, `truck`
-- Training: 50,000 images | Testing: 10,000 images
+- **60,000** color images (32x32 pixels, RGB)
+- **10 Classes**: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
+- Split: **50,000** training images | **10,000** test images
 
 ---
 
-### Requirements
+## ⚙️ Requirements
 
 - Python 3.8+
 - TensorFlow 2.x
@@ -31,43 +31,68 @@ This project implements a Convolutional Neural Network (CNN) to classify images 
 - Seaborn
 - scikit-learn
 
-### Installation
+Install all dependencies using:
 
-`pip install tensorflow matplotlib seaborn scikit-learn`
+```bash
+pip install tensorflow matplotlib seaborn scikit-learn
+```
 
 ---
 
-## Data Exploration and Preparation
-- Loaded CIFAR-10 dataset
-- Displayed sample images with labels
-- Normalized image data to [0, 1]
-- Displayed label distribution
+## 🧪 Tasks Overview
 
-## Build and Train CNN Model
-- Built a CNN using Conv2D, MaxPooling, Dropout, Dense layers
-- Trained model for 15 epochs with Adam optimizer
-- Plotted accuracy/loss over epochs
+### 🔍 Data Exploration and Preparation
+- Loaded the CIFAR-10 dataset using Keras.
+- Displayed sample images with their labels.
+- Normalized image data to the range **[0, 1]**.
+- Printed shape and label distribution.
 
-## Evaluate the Model
-- Evaluated test accuracy
-- Generated confusion matrix and classification report
-- Displayed correct and incorrect predictions
+### 🏗 Build and Train CNN Model
+- Built a CNN using:
+  - `Conv2D`, `ReLU`, `MaxPooling2D`, `Dropout`, and `Dense` layers.
+- Trained for **15 epochs** using the **Adam** optimizer.
+- Plotted training and validation **accuracy and loss curves**.
 
-## Experimentation
-- Re-trained model using SGD optimizer
-- Compared performance between Adam and SGD
+### 📊 Evaluate the Model
+- Evaluated test set accuracy.
+- Generated a **confusion matrix** and **classification report**.
+- Displayed examples of correct and incorrect predictions.
 
-## Results
+### ⚙️ Experimentation
+- Re-trained the CNN using the **SGD** optimizer.
+- Compared performance between **Adam** and **SGD**.
+
+---
+
+## 📈 Results
+
 | Optimizer | Test Accuracy |
-| --------- | ------------- |
-| Adam      | \~0.7062      |
-| SGD       | \~0.5292)     |
+|-----------|---------------|
+| Adam      | ~0.7062       |
+| SGD       | ~0.5292       |
 
 ---
 
-## Key Learnings
-- How to build CNNs using Keras
-- Importance of regularization (Dropout)
-- Effects of optimizer choice (Adam vs. SGD)
-- Visualization helps detect overfitting or underfitting
+## 🧠 Key Learnings
+
+- How to build and train CNNs using Keras.
+- Importance of regularization techniques like **Dropout**.
+- Significant impact of optimizer choice (**Adam** vs. **SGD**).
+- Visualizations help detect **overfitting** or **underfitting**.
+
+---
+
+## 👨‍💻 Author
+
+**Shivam Kumar**  
+Deep Learning Project  
+June 2025
+
+---
+
+## 🏷️ Tags
+
+`#DeepLearning` `#CNN` `#ImageClassification` `#CIFAR10` `#TensorFlow` `#MachineLearning` `#Keras` `#ModelEvaluation` `#ComputerVision`
+
+---
 
