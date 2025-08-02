@@ -4,7 +4,7 @@ This project implements a **Convolutional Neural Network (CNN)** to classify ima
 
 ---
 
-## 🎯 Objective
+## Objective
 
 - Understand and apply CNNs for image classification.
 - Explore, preprocess, and visualize the CIFAR-10 dataset.
@@ -14,7 +14,7 @@ This project implements a **Convolutional Neural Network (CNN)** to classify ima
 
 ---
 
-## 🗂 Dataset: CIFAR-10
+## Dataset: CIFAR-10
 
 - **60,000** color images (32x32 pixels, RGB)
 - **10 Classes**: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
@@ -22,7 +22,7 @@ This project implements a **Convolutional Neural Network (CNN)** to classify ima
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Python 3.8+
 - TensorFlow 2.x
@@ -39,32 +39,32 @@ pip install tensorflow matplotlib seaborn scikit-learn
 
 ---
 
-## 🧪 Tasks Overview
+## Tasks Overview
 
-### 🔍 Data Exploration and Preparation
+### Data Exploration and Preparation
 - Loaded the CIFAR-10 dataset using Keras.
 - Displayed sample images with their labels.
 - Normalized image data to the range **[0, 1]**.
 - Printed shape and label distribution.
 
-### 🏗 Build and Train CNN Model
+### Build and Train CNN Model
 - Built a CNN using:
   - `Conv2D`, `ReLU`, `MaxPooling2D`, `Dropout`, and `Dense` layers.
 - Trained for **15 epochs** using the **Adam** optimizer.
 - Plotted training and validation **accuracy and loss curves**.
 
-### 📊 Evaluate the Model
+### Evaluate the Model
 - Evaluated test set accuracy.
 - Generated a **confusion matrix** and **classification report**.
 - Displayed examples of correct and incorrect predictions.
 
-### ⚙️ Experimentation
+###  Experimentation
 - Re-trained the CNN using the **SGD** optimizer.
 - Compared performance between **Adam** and **SGD**.
 
 ---
 
-## 📈 Results
+## Results
 
 | Optimizer | Test Accuracy |
 |-----------|---------------|
@@ -73,26 +73,9 @@ pip install tensorflow matplotlib seaborn scikit-learn
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 - How to build and train CNNs using Keras.
 - Importance of regularization techniques like **Dropout**.
 - Significant impact of optimizer choice (**Adam** vs. **SGD**).
 - Visualizations help detect **overfitting** or **underfitting**.
-
----
-
-## 👨‍💻 Author
-
-**Shivam Kumar**  
-Deep Learning Project  
-June 2025
-
----
-
-## 🏷️ Tags
-
-`#DeepLearning` `#CNN` `#ImageClassification` `#CIFAR10` `#TensorFlow` `#MachineLearning` `#Keras` `#ModelEvaluation` `#ComputerVision`
-
----
-
